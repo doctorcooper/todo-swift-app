@@ -3,27 +3,72 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E0EA1612556DB150047396F /* BidirectionalBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0EA1602556DB150047396F /* BidirectionalBinding.swift */; };
+		1E35F1D9251E9E5700886315 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 1E35F1D8251E9E5700886315 /* RxMoya */; };
+		1E35F1DC251E9EE500886315 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 1E35F1DB251E9EE500886315 /* Swinject */; };
+		1E8A287B25509ED600698743 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A287A25509ED600698743 /* Repository.swift */; };
+		1E8A28852550A1B700698743 /* TodoItemCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A28832550A1B700698743 /* TodoItemCD.swift */; };
+		1E8A28882550A2C300698743 /* TodoItem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E8A287C25509FE100698743 /* TodoItem.xcdatamodeld */; };
+		1E9E289E2534A4F40036636A /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 1E9E289D2534A4F40036636A /* RxCocoa */; };
+		1E9E28A02534A4F40036636A /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 1E9E289F2534A4F40036636A /* RxRelay */; };
+		1E9E28A22534DD440036636A /* Assembler+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9E28A12534DD440036636A /* Assembler+Ext.swift */; };
+		1EA144B62534E3F20094AD7E /* AssemblyUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA144B52534E3F20094AD7E /* AssemblyUIKit.swift */; };
+		1EA144B82534E5670094AD7E /* UIKitCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA144B72534E5670094AD7E /* UIKitCoordinator.swift */; };
+		1EA144C62534ED0C0094AD7E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA144C42534ED0C0094AD7E /* MenuViewController.swift */; };
+		1EA144C72534ED0C0094AD7E /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EA144C52534ED0C0094AD7E /* MenuViewController.xib */; };
+		1EA144C92534ED450094AD7E /* MenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA144C82534ED450094AD7E /* MenuViewModel.swift */; };
+		1EC924862528C0080092F27E /* Coordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC924852528C0080092F27E /* Coordinatable.swift */; };
+		1EC924882528C0840092F27E /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC924872528C0840092F27E /* AppCoordinator.swift */; };
+		1EC9248D2528C2A80092F27E /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9248C2528C2A80092F27E /* NetworkConstants.swift */; };
+		1EC9248F2528C3460092F27E /* NetworkEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC9248E2528C3460092F27E /* NetworkEndpoints.swift */; };
+		1EE05F4A255C69ED00C8E128 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE05F49255C69ED00C8E128 /* NetworkError.swift */; };
+		1EE05F4E255C70CC00C8E128 /* AssemblyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE05F4D255C70CC00C8E128 /* AssemblyAPI.swift */; };
+		1EE4D367253213FB00A22E57 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 1EE4D366253213FB00A22E57 /* KeychainAccess */; };
+		1EE4D36A2532155900A22E57 /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4D3692532155900A22E57 /* KeychainWrapper.swift */; };
+		1EE4D36C2532554900A22E57 /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE4D36B2532554900A22E57 /* TodoListViewModel.swift */; };
 		1EE911E2251BDDB000A85AE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE911E1251BDDB000A85AE3 /* AppDelegate.swift */; };
 		1EE911E4251BDDB000A85AE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE911E3251BDDB000A85AE3 /* SceneDelegate.swift */; };
-		1EE911E6251BDDB000A85AE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE911E5251BDDB000A85AE3 /* ViewController.swift */; };
-		1EE911E9251BDDB000A85AE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE911E7251BDDB000A85AE3 /* Main.storyboard */; };
 		1EE911EB251BDDB100A85AE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE911EA251BDDB100A85AE3 /* Assets.xcassets */; };
 		1EE911EE251BDDB100A85AE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE911EC251BDDB100A85AE3 /* LaunchScreen.storyboard */; };
+		1EE911FA251BDE9300A85AE3 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE911F8251BDE9300A85AE3 /* TodoListViewController.swift */; };
+		1EE911FB251BDE9300A85AE3 /* TodoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EE911F9251BDE9300A85AE3 /* TodoListViewController.xib */; };
+		1EE911FE251BDEE300A85AE3 /* TodoItemDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE911FD251BDEE300A85AE3 /* TodoItemDTO.swift */; };
+		1EFBD7222557330E00CDC89F /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFBD7212557330E00CDC89F /* NetworkProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E0EA1602556DB150047396F /* BidirectionalBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidirectionalBinding.swift; sourceTree = "<group>"; };
+		1E8A287A25509ED600698743 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		1E8A287D25509FE100698743 /* TodoItem.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TodoItem.xcdatamodel; sourceTree = "<group>"; };
+		1E8A28832550A1B700698743 /* TodoItemCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemCD.swift; sourceTree = "<group>"; };
+		1E9E28A12534DD440036636A /* Assembler+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Assembler+Ext.swift"; sourceTree = "<group>"; };
+		1EA144B52534E3F20094AD7E /* AssemblyUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyUIKit.swift; sourceTree = "<group>"; };
+		1EA144B72534E5670094AD7E /* UIKitCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitCoordinator.swift; sourceTree = "<group>"; };
+		1EA144C42534ED0C0094AD7E /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		1EA144C52534ED0C0094AD7E /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		1EA144C82534ED450094AD7E /* MenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewModel.swift; sourceTree = "<group>"; };
+		1EC924852528C0080092F27E /* Coordinatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinatable.swift; sourceTree = "<group>"; };
+		1EC924872528C0840092F27E /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		1EC9248C2528C2A80092F27E /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		1EC9248E2528C3460092F27E /* NetworkEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkEndpoints.swift; sourceTree = "<group>"; };
+		1EE05F49255C69ED00C8E128 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		1EE05F4D255C70CC00C8E128 /* AssemblyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyAPI.swift; sourceTree = "<group>"; };
+		1EE4D3692532155900A22E57 /* KeychainWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		1EE4D36B2532554900A22E57 /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
 		1EE911DE251BDDB000A85AE3 /* todo-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "todo-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE911E1251BDDB000A85AE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EE911E3251BDDB000A85AE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1EE911E5251BDDB000A85AE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1EE911E8251BDDB000A85AE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EE911EA251BDDB100A85AE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EE911ED251BDDB100A85AE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EE911EF251BDDB100A85AE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EE911F8251BDE9300A85AE3 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
+		1EE911F9251BDE9300A85AE3 /* TodoListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoListViewController.xib; sourceTree = "<group>"; };
+		1EE911FD251BDEE300A85AE3 /* TodoItemDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemDTO.swift; sourceTree = "<group>"; };
+		1EFBD7212557330E00CDC89F /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +76,94 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E9E28A02534A4F40036636A /* RxRelay in Frameworks */,
+				1E35F1D9251E9E5700886315 /* RxMoya in Frameworks */,
+				1E35F1DC251E9EE500886315 /* Swinject in Frameworks */,
+				1E9E289E2534A4F40036636A /* RxCocoa in Frameworks */,
+				1EE4D367253213FB00A22E57 /* KeychainAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E0EA15F2556DAFC0047396F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1E0EA1602556DB150047396F /* BidirectionalBinding.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1E9E28A32534DF000036636A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1EC924852528C0080092F27E /* Coordinatable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		1EA144B42534E3C70094AD7E /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				1E9E28A12534DD440036636A /* Assembler+Ext.swift */,
+				1EA144B52534E3F20094AD7E /* AssemblyUIKit.swift */,
+				1EE05F4D255C70CC00C8E128 /* AssemblyAPI.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		1EA144BB2534EB730094AD7E /* List */ = {
+			isa = PBXGroup;
+			children = (
+				1EE911F9251BDE9300A85AE3 /* TodoListViewController.xib */,
+				1EE911F8251BDE9300A85AE3 /* TodoListViewController.swift */,
+				1EE4D36B2532554900A22E57 /* TodoListViewModel.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		1EA144C32534ECF60094AD7E /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				1EA144C52534ED0C0094AD7E /* MenuViewController.xib */,
+				1EA144C42534ED0C0094AD7E /* MenuViewController.swift */,
+				1EA144C82534ED450094AD7E /* MenuViewModel.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		1EC924842528BFF10092F27E /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				1E9E28A32534DF000036636A /* Protocols */,
+				1EA144B42534E3C70094AD7E /* Assembly */,
+				1EC924872528C0840092F27E /* AppCoordinator.swift */,
+				1EA144B72534E5670094AD7E /* UIKitCoordinator.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		1EC9248B2528C23E0092F27E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1EC9248C2528C2A80092F27E /* NetworkConstants.swift */,
+				1EC9248E2528C3460092F27E /* NetworkEndpoints.swift */,
+				1EFBD7212557330E00CDC89F /* NetworkProvider.swift */,
+				1EE05F49255C69ED00C8E128 /* NetworkError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1EE4D3682532154200A22E57 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				1EE4D3692532155900A22E57 /* KeychainWrapper.swift */,
+				1E8A287A25509ED600698743 /* Repository.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
 		1EE911D5251BDDB000A85AE3 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +183,54 @@
 		1EE911E0251BDDB000A85AE3 /* todo-app */ = {
 			isa = PBXGroup;
 			children = (
-				1EE911E1251BDDB000A85AE3 /* AppDelegate.swift */,
+				1EE911F6251BDDD100A85AE3 /* Resources */,
+				1EE911F5251BDDC000A85AE3 /* Sources */,
+				1EE911FC251BDEC900A85AE3 /* Models */,
+			);
+			path = "todo-app";
+			sourceTree = "<group>";
+		};
+		1EE911F5251BDDC000A85AE3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1EC924842528BFF10092F27E /* DI */,
+				1E0EA15F2556DAFC0047396F /* Extensions */,
+				1EC9248B2528C23E0092F27E /* Network */,
+				1EE4D3682532154200A22E57 /* Storage */,
+				1EE911F7251BDE7000A85AE3 /* UIKit Todo List */,
 				1EE911E3251BDDB000A85AE3 /* SceneDelegate.swift */,
-				1EE911E5251BDDB000A85AE3 /* ViewController.swift */,
-				1EE911E7251BDDB000A85AE3 /* Main.storyboard */,
+				1EE911E1251BDDB000A85AE3 /* AppDelegate.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1EE911F6251BDDD100A85AE3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				1EE911EA251BDDB100A85AE3 /* Assets.xcassets */,
 				1EE911EC251BDDB100A85AE3 /* LaunchScreen.storyboard */,
 				1EE911EF251BDDB100A85AE3 /* Info.plist */,
 			);
-			path = "todo-app";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1EE911F7251BDE7000A85AE3 /* UIKit Todo List */ = {
+			isa = PBXGroup;
+			children = (
+				1EA144BB2534EB730094AD7E /* List */,
+				1EA144C32534ECF60094AD7E /* Menu */,
+			);
+			path = "UIKit Todo List";
+			sourceTree = "<group>";
+		};
+		1EE911FC251BDEC900A85AE3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1E8A28832550A1B700698743 /* TodoItemCD.swift */,
+				1EE911FD251BDEE300A85AE3 /* TodoItemDTO.swift */,
+				1E8A287C25509FE100698743 /* TodoItem.xcdatamodeld */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +249,13 @@
 			dependencies = (
 			);
 			name = "todo-app";
+			packageProductDependencies = (
+				1E35F1D8251E9E5700886315 /* RxMoya */,
+				1E35F1DB251E9EE500886315 /* Swinject */,
+				1EE4D366253213FB00A22E57 /* KeychainAccess */,
+				1E9E289D2534A4F40036636A /* RxCocoa */,
+				1E9E289F2534A4F40036636A /* RxRelay */,
+			);
 			productName = "todo-app";
 			productReference = 1EE911DE251BDDB000A85AE3 /* todo-app.app */;
 			productType = "com.apple.product-type.application";
@@ -94,7 +267,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Dmitry Kupriyanov";
 				TargetAttributes = {
 					1EE911DD251BDDB000A85AE3 = {
@@ -111,6 +284,12 @@
 				Base,
 			);
 			mainGroup = 1EE911D5251BDDB000A85AE3;
+			packageReferences = (
+				1E35F1D7251E9E5700886315 /* XCRemoteSwiftPackageReference "Moya" */,
+				1E35F1DA251E9EE500886315 /* XCRemoteSwiftPackageReference "Swinject" */,
+				1EE4D365253213FB00A22E57 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+				1E9E289C2534A4F40036636A /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 1EE911DF251BDDB000A85AE3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +304,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE911FB251BDE9300A85AE3 /* TodoListViewController.xib in Resources */,
+				1EA144C72534ED0C0094AD7E /* MenuViewController.xib in Resources */,
 				1EE911EE251BDDB100A85AE3 /* LaunchScreen.storyboard in Resources */,
 				1EE911EB251BDDB100A85AE3 /* Assets.xcassets in Resources */,
-				1EE911E9251BDDB000A85AE3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +318,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EE911E6251BDDB000A85AE3 /* ViewController.swift in Sources */,
+				1E8A28882550A2C300698743 /* TodoItem.xcdatamodeld in Sources */,
+				1EE4D36C2532554900A22E57 /* TodoListViewModel.swift in Sources */,
+				1EC9248F2528C3460092F27E /* NetworkEndpoints.swift in Sources */,
+				1EC9248D2528C2A80092F27E /* NetworkConstants.swift in Sources */,
+				1EA144C92534ED450094AD7E /* MenuViewModel.swift in Sources */,
+				1EA144B82534E5670094AD7E /* UIKitCoordinator.swift in Sources */,
+				1EC924882528C0840092F27E /* AppCoordinator.swift in Sources */,
+				1EE911FE251BDEE300A85AE3 /* TodoItemDTO.swift in Sources */,
+				1EE05F4A255C69ED00C8E128 /* NetworkError.swift in Sources */,
+				1EE911FA251BDE9300A85AE3 /* TodoListViewController.swift in Sources */,
+				1EC924862528C0080092F27E /* Coordinatable.swift in Sources */,
+				1EE05F4E255C70CC00C8E128 /* AssemblyAPI.swift in Sources */,
+				1E8A287B25509ED600698743 /* Repository.swift in Sources */,
 				1EE911E2251BDDB000A85AE3 /* AppDelegate.swift in Sources */,
+				1E0EA1612556DB150047396F /* BidirectionalBinding.swift in Sources */,
+				1EFBD7222557330E00CDC89F /* NetworkProvider.swift in Sources */,
+				1E9E28A22534DD440036636A /* Assembler+Ext.swift in Sources */,
+				1EA144C62534ED0C0094AD7E /* MenuViewController.swift in Sources */,
 				1EE911E4251BDDB000A85AE3 /* SceneDelegate.swift in Sources */,
+				1E8A28852550A1B700698743 /* TodoItemCD.swift in Sources */,
+				1EE4D36A2532155900A22E57 /* KeychainWrapper.swift in Sources */,
+				1EA144B62534E3F20094AD7E /* AssemblyUIKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1EE911E7251BDDB000A85AE3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1EE911E8251BDDB000A85AE3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1EE911EC251BDDB100A85AE3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -192,6 +383,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -216,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -252,6 +444,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -270,7 +463,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -286,7 +479,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G8282D8KRH;
-				INFOPLIST_FILE = "todo-app/Info.plist";
+				INFOPLIST_FILE = "todo-app/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +497,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G8282D8KRH;
-				INFOPLIST_FILE = "todo-app/Info.plist";
+				INFOPLIST_FILE = "todo-app/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -338,6 +531,82 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1E35F1D7251E9E5700886315 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.0.0;
+			};
+		};
+		1E35F1DA251E9EE500886315 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.1;
+			};
+		};
+		1E9E289C2534A4F40036636A /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+		1EE4D365253213FB00A22E57 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E35F1D8251E9E5700886315 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E35F1D7251E9E5700886315 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		1E35F1DB251E9EE500886315 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E35F1DA251E9EE500886315 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		1E9E289D2534A4F40036636A /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E9E289C2534A4F40036636A /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		1E9E289F2534A4F40036636A /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E9E289C2534A4F40036636A /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		1EE4D366253213FB00A22E57 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1EE4D365253213FB00A22E57 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		1E8A287C25509FE100698743 /* TodoItem.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1E8A287D25509FE100698743 /* TodoItem.xcdatamodel */,
+			);
+			currentVersion = 1E8A287D25509FE100698743 /* TodoItem.xcdatamodel */;
+			path = TodoItem.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1EE911D6251BDDB000A85AE3 /* Project object */;
 }

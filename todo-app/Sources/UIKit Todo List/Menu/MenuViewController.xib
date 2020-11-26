@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MenuViewController" customModule="todo_app" customModuleProvider="target">
+            <connections>
+                <outlet property="activityIndicator" destination="Wws-09-4B1" id="YSP-Ls-Rom"/>
+                <outlet property="downloadStateButton" destination="1sp-S4-w9Z" id="FJz-ow-biF"/>
+                <outlet property="firstTextfield" destination="IOI-Rq-Uir" id="Sop-cU-vDP"/>
+                <outlet property="loginButton" destination="Yfo-Ug-X2n" id="hDI-xr-bbu"/>
+                <outlet property="registerButton" destination="FEp-1X-DXF" id="ajY-nr-4xV"/>
+                <outlet property="secondTextfield" destination="4yw-Og-yIP" id="0ku-6E-2XF"/>
+                <outlet property="syncStateContainer" destination="dNn-Ms-1OE" id="B9z-4E-W1c"/>
+                <outlet property="titleLabel" destination="E3E-Qm-h5Q" id="sa4-qf-fbY"/>
+                <outlet property="uploadStateButton" destination="4h8-8T-IxT" id="PqA-DO-XIx"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="oJW-ga-si5">
+                    <rect key="frame" x="16" y="60" width="382" height="257"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign In or Sign Up" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E3E-Qm-h5Q">
+                            <rect key="frame" x="0.0" y="0.0" width="382" height="29"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Login" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IOI-Rq-Uir">
+                            <rect key="frame" x="0.0" y="45" width="382" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4yw-Og-yIP">
+                            <rect key="frame" x="0.0" y="95" width="382" height="34"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                        </textField>
+                        <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Wws-09-4B1">
+                            <rect key="frame" x="0.0" y="137" width="382" height="0.0"/>
+                        </activityIndicatorView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yfo-Ug-X2n">
+                            <rect key="frame" x="0.0" y="145" width="382" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="U1I-Zr-WMA"/>
+                            </constraints>
+                            <state key="normal" title="Login"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FEp-1X-DXF">
+                            <rect key="frame" x="0.0" y="209" width="382" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="l7o-k0-nep"/>
+                            </constraints>
+                            <state key="normal" title="Register"/>
+                        </button>
+                        <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="dNn-Ms-1OE">
+                            <rect key="frame" x="0.0" y="257" width="382" height="48"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4h8-8T-IxT">
+                                    <rect key="frame" x="0.0" y="0.0" width="191" height="48"/>
+                                    <state key="normal" title="Upload"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1sp-S4-w9Z">
+                                    <rect key="frame" x="191" y="0.0" width="191" height="48"/>
+                                    <state key="normal" title="Download"/>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="HVO-eQ-pDP"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="oJW-ga-si5" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="PhR-A3-8S6"/>
+                <constraint firstItem="oJW-ga-si5" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="gKO-o0-D3a"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="oJW-ga-si5" secondAttribute="trailing" constant="16" id="pmu-dd-5D0"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="106"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
